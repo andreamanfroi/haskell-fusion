@@ -8,8 +8,7 @@ import java.util.function.Supplier;
 
 public abstract class Maybe<T> {
 
-    private Maybe() {
-    }
+    private Maybe() {}
 
     public abstract boolean isJust();
 

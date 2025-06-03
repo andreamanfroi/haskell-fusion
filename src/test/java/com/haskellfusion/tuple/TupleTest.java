@@ -10,13 +10,13 @@ class TupleTest {
     @Test
     void testGetFirst() {
         var t = new Tuple("hello1", "hello2");
-        assertEquals("hello1", t.getFirst());
+        assertEquals("hello1", t.first());
     }
 
     @Test
     void testGetSecond() {
         var t = new Tuple("hello1", "hello2");
-        assertEquals("hello2", t.getSecond());
+        assertEquals("hello2", t.second());
     }
 
     @Test

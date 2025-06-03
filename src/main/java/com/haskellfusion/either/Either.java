@@ -4,6 +4,7 @@ import java.util.NoSuchElementException;
 import java.util.function.Function;
 
 public abstract class Either<L, R> {
+
     private Either() {}
 
     public abstract boolean isLeft();
